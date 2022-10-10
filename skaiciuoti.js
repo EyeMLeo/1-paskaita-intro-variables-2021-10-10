@@ -29,5 +29,3 @@ function calculate() {
 
 calculateEl.onclick = calculate;
 
-
-// papildomos uszduotis
