@@ -28,3 +28,26 @@ console.log(skaicius+savaitesDiena);
 // atspausdinam konsoleje naudodami kintamuosius "as esu John. noreciau keliausi i Jamaika. Mano megstamiausias skaicius yra 777"
 let sakinys = `As esu ${vardas}. Noreciau keliauti i ${salis}. Mano megstamiausias skaicius ${skaicius}.`;
 console.log(sakinys);
+
+
+const resultEl = document.getElementById('result');
+resultEl.textContent = sakinys;
+
+
+
+// 6. sukurti 4 skaicius kintamuosius
+
+let sk1 = 5;
+console.log(sk1);
+let sk2 = 1;
+console.log(sk2);
+let sk3 = 10;
+console.log(sk3);
+let sk4 = 7;
+console.log(sk4);
+
+// 7. apskaiciuoti ju vidurki ir priskirti kintamajam avg
+
+
+let avg=(sk1 + sk2 + sk3 + sk4)/4
+console.log(avg);
